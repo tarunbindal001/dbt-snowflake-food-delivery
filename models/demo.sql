@@ -1,0 +1,1 @@
+select * from {{ source('food_delivery_source', 'raw_USERS') }}

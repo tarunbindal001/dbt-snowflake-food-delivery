@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: food_delivery_source
+    database: FOOD
+    schema: STAGING
+
+    tables:
+      - name: raw_USERS
+        identifier: USERS
+      - name: raw_RESTAURANTS
+        identifier: RESTAURANTS
+      - name: raw_ORDERS
+        identifier: ORDERS
